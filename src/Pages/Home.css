@@ -1,0 +1,9 @@
+.img-fluid{
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
