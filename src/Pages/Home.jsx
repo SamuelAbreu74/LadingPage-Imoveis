@@ -1,7 +1,9 @@
 import "./Home.css";
 import Carousel1 from "../components/Carousel1";
 import Navbar from "../components/Navbar_home";
-import Product_Card from "../components/Product_Card";
+import Product_Card1 from "../components/Product_Card1";
+import Product_Card2 from "../components/Product_Card2";
+import User_Form from "../components/User_Form";
 
 function Home() {
     return (
@@ -14,7 +16,9 @@ function Home() {
             </div>
             <main>
                 <Carousel1 />
-                <Product_Card />
+                <Product_Card1 />
+                <User_Form />
+                <Product_Card2 />
             </main>
             <footer>@Samuel.Dev</footer>
         </>

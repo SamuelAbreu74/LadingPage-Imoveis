@@ -9,8 +9,8 @@ function Carousel1(){
         }
     },[])
     return(
-        <div id="carousel-container" className="container-fluid d-flex mb-3">
-                    <div id="carousel-1" className="carousel slide mt-3 mb-1" data-bs-ride="true">
+        <div id="carousel-container" className="container-fluid d-flex mt-2 mb-4 ">
+                    <div id="carousel-1" className="carousel slide" data-bs-ride="true">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" data-bs-theme="dark" className="active" aria-current="true" aria-label="image-1"></button>
                             <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" data-bs-theme="dark"aria-label="image-2"></button>
@@ -19,7 +19,7 @@ function Carousel1(){
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="src\assets\Carousel-1Assets\house1.png" className="d-block  img-fluid object-fit-scale-down" alt="image-1" />
+                                <img src="src\assets\Carousel-1Assets\house1.png" className="d-block  img-fluid object-fit-scale-down " alt="image-1" />
                             </div>
                             <div className="carousel-item ">
                                 <img src="src\assets\Carousel-1Assets\house2.png" className="d-flex img-fluid object-fit-scale-down" alt="image-2" />
